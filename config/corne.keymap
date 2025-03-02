@@ -10,8 +10,8 @@
 #define Main    0
 #define Num-Ascii  1
 #define Func-Char  2
-#define Fun     3
-#define Blue-Rgb     4
+#define Blue-Rgb     3
+#define DeleteProfile     4
 
 //numero de leds inferiores
 
