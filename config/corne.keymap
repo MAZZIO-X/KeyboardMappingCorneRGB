@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define Main    0
-#define Num     1
+#define Number  1
 #define Signos  2
 #define Fun     3
 #define RGB     4
@@ -61,7 +61,7 @@
             label = " QWERTY ";
         };
 
-        Num {
+        Number {
             // -----------------------------------------------------------------------------------------
             // | mo 2 | HOME | UP   | PAGE_UP   | VOLUME_UP     | NEXT|          | N7  | N8  | N9  |  -  |  /  |DELETE   |
             // | mo 3 | LEFT | DOWN | RIGHT     | MUTE          | PLAY|          | N4  | N5  | N6  |  +  |  *  | ENT     |
