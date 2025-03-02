@@ -2,15 +2,16 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
+
 #define Main    0
-#define Number  1
-#define Signos  2
+#define Num-Ascii  1
+#define Func-Char  2
 #define Fun     3
-#define RGB     4
+#define Blue-Rgb     4
 
 //numero de leds inferiores
 
@@ -62,7 +63,7 @@
             label = "MAZZIO";
         };
 
-        Number {
+        Num-Ascii {
             // -----------------------------------------------------------------------------------------
             // | mo 2 | HOME | UP   | PAGE_UP   | VOLUME_UP     | NEXT|          | N7  | N8  | N9  |  -  |  /  |DELETE   |
             // | mo 3 | LEFT | DOWN | RIGHT     | MUTE          | PLAY|          | N4  | N5  | N6  |  +  |  *  | ENT     |
@@ -79,7 +80,7 @@
             label = "NUM-ASCII";
         };
 
-        Fun {
+        Func-Char {
             // -----------------------------------------------------------------------------------------
             // | F1  | F2  | F3  | F4  | F5  | F6   |          | F7   | F8  | F9  | F10 | F11 | F12 |
             // |     |  1  |  2  |  3  |  4  |  5   |          |  6   |  7  |  8  |  9  |  0  | ENT |
@@ -96,7 +97,7 @@
             label = "FUNC-CHAR";
         };
 
-        RGB {
+        Blue-Rgb {
             // -----------------------------------------------------------------------------------------
             // | BT NXT | BT0       | BT1       | BT2      | BT3  | BT4  |          |     |     |     |     |     |     |
             // |        |           |  RGB_BRI  | RGB_HUI  |      |      |          |     |     |     |     |     |     |
