@@ -140,7 +140,7 @@
 &kp ESCAPE      &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &kp C_BRIGHTNESS_INC   &kp DELETE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
 &to 0           &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp C_BRIGHTNESS_AUTO  &kp INSERT        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &to 3
 &kp LEFT_SHIFT  &kp END         &kp DOWN_ARROW  &kp PAGE_DOWN    &kp C_BRIGHTNESS_DEC   &kp SCROLLLOCK    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
-                                                &kp LCTRL        &kp LEFT_WIN           &kp LEFT_ALT      &to 1            &kp KP_NUMBER_0  &kp KP_DOT
+                                                &kp LCTRL        &kp LEFT_WIN           &kp LEFT_ALT      &to 2            &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             label = "NUM-ASCII";
@@ -155,7 +155,7 @@
 
             bindings = <
 &kp F1          &kp F2        &kp F3        &kp F4             &kp F5          &kp F6           &kp F7        &kp F8                &kp F9           &kp F10       &kp F11             &kp F12
-&to 2           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0        &to 3
+&to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0        &to 3
 &kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH    &kp SLASH     &kp NON_US_BACKSLASH  &kp GRAVE        &trans        &kp K_CONTEXT_MENU  &kp RIGHT_SHIFT
                                             &kp LEFT_CONTROL   &kp LEFT_WIN    &kp LEFT_ALT     &to 0         &kp PRINTSCREEN       &kp PAUSE_BREAK
             >;
