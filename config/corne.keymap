@@ -77,32 +77,32 @@
         };
 
         Play-Pause {
-            bindings = <&kp K_PLAY_PAUSE>;
+            bindings = <&kp C_PLAY>;
             key-positions = <14 15 16>;
         };
 
         Next {
-            bindings = <&kp K_NEXT>;
+            bindings = <&kp C_NEXT>;
             key-positions = <17 16 15>;
         };
 
         Previous {
-            bindings = <&kp K_PREVIOUS>;
+            bindings = <&kp C_PREV>;
             key-positions = <13 14 15>;
         };
 
         Mute {
-            bindings = <&kp K_MUTE>;
+            bindings = <&kp C_MUTE>;
             key-positions = <2 3 4>;
         };
 
         Vol_Up {
-            bindings = <&kp K_VOLUME_UP>;
+            bindings = <&kp C_VOL_UP>;
             key-positions = <5 4 3>;
         };
 
         Vol_Down {
-            bindings = <&kp K_VOLUME_DOWN>;
+            bindings = <&kp C_VOL_DN>;
             key-positions = <1 2 3>;
         };
 
@@ -149,6 +149,11 @@
         Spd_Dec {
             bindings = <&rgb_ug RGB_SPD>;
             key-positions = <31 32 33>;
+        };
+
+        BT_Clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <22 10 34>;
         };
     };
 
