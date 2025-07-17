@@ -105,10 +105,10 @@
             //                      | ALT       | WIN           |     |          | ENT | N0  | .   |
 
             bindings = <
-&kp ESCAPE      &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &kp C_BRIGHTNESS_INC   &kp DELETE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
-&to 0           &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp C_BRIGHTNESS_AUTO  &kp INSERT        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &to 3
-&kp LEFT_SHIFT  &kp END         &kp DOWN_ARROW  &kp PAGE_DOWN    &kp C_BRIGHTNESS_DEC   &kp SCROLLLOCK    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
-                                                &kp LCTRL        &kp LEFT_WIN           &kp LEFT_ALT      &to 2            &kp KP_NUMBER_0  &kp KP_DOT
+&kp ESCAPE      &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &none         &none             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
+&to 0           &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &none         &none             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &to 3
+&kp LEFT_SHIFT  &kp END         &kp DOWN_ARROW  &kp PG_DN        &none         &kp SCROLLLOCK    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
+                                                &kp LCTRL        &kp LEFT_WIN  &kp LEFT_ALT      &to 2            &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             label = "NUM-ASCII";
@@ -139,10 +139,10 @@
             //                                  | CTL      | WIN  |      |          |     |     |     |
 
             bindings = <
-&none  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI                   &rgb_ug RGB_BRI                    &rgb_ug RGB_SAI                    &rgb_ug RGB_HUI    &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_LEFT   &kp C_NEXT        &kp C_VOLUME_UP    &none
-&to 0  &rgb_ug RGB_OFF  &rgb_ug RGB_COLOR_HSB(65,100,50)  &rgb_ug RGB_COLOR_HSB(236,100,50)  &rgb_ug RGB_COLOR_HSB(360,100,50)  &rgb_ug RGB_ON     &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp C_PLAY_PAUSE  &kp C_MUTE         &to 0
-&none  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD                   &rgb_ug RGB_BRD                    &rgb_ug RGB_SAD                    &rgb_ug RGB_HUD    &msc SCRL_DOWN  &mmv MOVE_DOWN  &msc SCRL_RIGHT  &kp C_PREVIOUS    &kp C_VOLUME_DOWN  &none
-                                                          &none                              &none                              &none              &to 0           &mkp LCLK       &mkp RCLK
+&none  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI    &msc SCRL_UP       &mmv MOVE_Y(200)   &msc SCRL_LEFT    &none  &none  &none
+&to 0  &none            &none            &none            &none            &none              &mmv MOVE_X(-200)  &mkp MCLK          &mmv MOVE_X(200)  &none  &none  &to 0
+&none  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD    &msc SCRL_DOWN     &mmv MOVE_Y(-200)  &msc SCRL_RIGHT   &none  &none  &none
+                                         &none            &none            &none              &to 0              &mkp LCLK          &mkp RCLK
             >;
 
             label = "BLUE-RGB";
